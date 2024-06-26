@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import { Col, Row } from 'react-bootstrap';
 import * as FaIcons from 'react-icons/fa';
@@ -28,7 +29,7 @@ function ProjectOverview({ projectsOverview }) {
                             })}
                         </ul>
                         <div className={classes.image}>
-                            <Image src={item?.image} alt={item?.imageAlt} />
+                            <img src={item?.image} alt={item?.imageAlt} />
                         </div>
                         <h2 className={classes.handover_title}>
                             {item?.handoverTitle}

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import { Col, Container, Row } from 'react-bootstrap';
 import Link from 'next/link';
@@ -11,7 +12,8 @@ function BannerTwo({ bannerTwoItems }) {
                     <Row className="g-0" key={bannerTwoItem.id}>
                         <Col lg={{ span: 6 }}>
                             <div className={classes.image}>
-                                <Image
+                                <img
+                                   
                                     src={bannerTwoItem?.image}
                                     alt={bannerTwoItem?.alt}
                                     className="img-full"
@@ -43,7 +45,8 @@ function BannerTwo({ bannerTwoItems }) {
                                     </div>
                                 </div>
                                 <div className={classes.sticker}>
-                                    <Image
+                                    <img
+                                       
                                         src={bannerTwoItem?.stickerImage}
                                         alt={bannerTwoItem?.stickerAlt}
                                         className="img-full"

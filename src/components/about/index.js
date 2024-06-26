@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import { Col, Container, Row } from 'react-bootstrap';
 import * as FaIcons from 'react-icons/fa';
@@ -28,13 +29,15 @@ function AboutOne({ aboutItems }) {
                             <Col lg={{ span: 6 }}>
                                 <div className={classes.img__wrap}>
                                     <div className={classes.pattern}>
-                                        <Image
+                                        <img
+                                         
                                             src={aboutItem?.pattern}
                                             alt={aboutItem?.patternAlt}
                                         />
                                     </div>
                                     <div className={classes.img}>
-                                        <Image
+                                        <img 
+                                           
                                             src={aboutItem?.image}
                                             alt={aboutItem?.alt}
                                             className="img-full"
@@ -61,7 +64,8 @@ function AboutOne({ aboutItems }) {
                                             />
                                         </div>
                                         <div className={classes.experience_img}>
-                                            <Image
+                                            <img
+                                              
                                                 src={aboutItem?.experienceImage}
                                                 alt={aboutItem?.experienceAlt}
                                             />

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import { Col, Row } from 'react-bootstrap';
 import classes from './index.module.scss';
@@ -24,13 +25,13 @@ function RichText({ richTexts }) {
                     <Col lg={{ span: 8 }}>
                         <div className={`${classes.group_image} pb-20`}>
                             <div className={`${classes.single_image} pe-20`}>
-                              <Image
+                              <img
                                     src={richText?.groupImageOne}
                                     alt={richText?.groupImageAlt}
                                 />
                             </div>
                             <div className={classes.single_image}>
-                                <Image
+                                <img
                                     src={richText?.groupImageTwo}
                                     alt={richText?.groupImageAlt}
                                 />
@@ -38,13 +39,13 @@ function RichText({ richTexts }) {
                         </div>
                         <div className={`${classes.group_image}`}>
                             <div className={`${classes.single_image} pe-20`}>
-                                <Image
+                                <img
                                     src={richText?.groupImageThree}
                                     alt={richText?.groupImageAlt}
                                 />
                             </div>
                             <div className={classes.single_image}>
-                                <Image
+                                <img
                                     src={richText?.groupImageFour}
                                     alt={richText?.groupImageAlt}
                                 />

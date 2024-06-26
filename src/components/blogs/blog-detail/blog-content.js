@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import { Col } from 'react-bootstrap';
 import Blockquote from '../../blockquote';
@@ -11,7 +12,7 @@ function BlogContent({ blog, richTexts }) {
     return (
         <Col lg={{ span: 8 }} className="pe-lg-45">
             <div className="banner">
-                <Image className="img-full" src={imagePath} alt={blog?.title} />
+                <img className="img-full" src={imagePath} alt={blog?.title} />
             </div>
             <div className={classes.content}>
                 <span className={classes.meta}>{blog?.blogMeta}</span>

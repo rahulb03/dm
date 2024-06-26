@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
@@ -66,7 +67,7 @@ function BrandTwo({ brandItems, settings }) {
                     {brandItems?.map((brandItem) => (
                         <Slide key={brandItem.id}>
                             <Link href="/" className={classes.item}>
-                                <Image
+                                <img
                                     src={brandItem?.image}
 
 

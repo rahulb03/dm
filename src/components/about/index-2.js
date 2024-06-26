@@ -1,8 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import { Col, Container, Row } from 'react-bootstrap';
 import * as FaIcons from 'react-icons/fa';
 import classes from './about-2.module.scss';
-import Image from 'next/image';
 function AboutTwo({ aboutItemsTwo }) {
     return (
         <div className={classes.area}>
@@ -12,25 +12,28 @@ function AboutTwo({ aboutItemsTwo }) {
                         <Col lg={{ span: 6 }}>
                             <div className={classes.img__wrap}>
                                 <div className={classes.pattern}>
-                                    <Image
+                                  
+                                    <img
                                         className="img-full"
                                         src={aboutItemTwo?.aboutPattern}
                                         alt={aboutItemTwo?.aboutPatternAlt}
-                                        priority
+                                        
                                     />
                                 </div>
                                 <div className={classes.img}>
-                                    <Image
+                                    <img  
+                                      
                                         className="img-full"
                                         src={aboutItemTwo?.aboutImage}
                                         alt={aboutItemTwo?.aboutImageAlt}
-                                        priority
+                                        
                                     />
                                 </div>
                                 <div className={classes.group__img}>
                                     <div className={classes.single_img}>
-                                        <Image 
-                                        priority
+                                        <img  
+                                       
+                                      
                                             className="img-full"
                                             src={aboutItemTwo?.singleImageOne}
                                             alt={
@@ -39,8 +42,8 @@ function AboutTwo({ aboutItemsTwo }) {
                                         />
                                     </div>
                                     <div className={classes.single_img}>
-                                        <Image
-                                          priority
+                                        <img
+                                        
                                             className="img-full"
                                             src={aboutItemTwo?.singleImageTwo}
                                             alt={

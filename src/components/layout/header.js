@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -66,7 +67,7 @@ function Header() {
                             >
                                 <div className={classes.info}>
                                     <div className={classes.contact_number}>
-                                        <Image
+                                        <img
                                             src="/images/header/icon/phone.png"
                                             alt="Phone"
                                         />
@@ -75,7 +76,7 @@ function Header() {
                                         </Link>
                                     </div>
                                     <div className={classes.time_schedule}>
-                                        <Image
+                                        <img
                                             src="/images/header/icon/clock.png"
                                             alt="Phone"
                                         />
@@ -86,7 +87,7 @@ function Header() {
                             <Col sm={{ span: 6 }} className="d-block d-lg-none">
                                 <div className="header-logo">
                                     <Link href="/" className={classes.logo}>
-                                        <Image
+                                        <img
                                             src="/images/logo/light.png"
                                             alt="Header Lisght Logo"
                                         />
@@ -282,7 +283,7 @@ function Header() {
                     </Container>
                     <div className={`${classes.fixed__logo} d-none d-lg-flex`}>
                         <Link href="/" className={classes.logo}>
-                            <Image
+                            <img
                                 src="/images/logo/dark.png"
                                 alt="Header Dark Logo"
                             />

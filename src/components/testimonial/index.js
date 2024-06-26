@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -107,7 +108,7 @@ function Testimonial({ testimonialItems, testimonialSectionItems, settings }) {
                                             </p>
                                             <div className={classes.user_info}>
                                                 <div className="user_img">
-                                                    <Image
+                                                    <img
                                                         src={
                                                             testimonialItem?.avatar
                                                         }

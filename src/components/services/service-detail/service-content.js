@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import { Col } from 'react-bootstrap';
 import RichText from '../../rich-text';
@@ -11,7 +12,7 @@ function ServiceContent({ service, richTexts, ourServices }) {
     return (
         <Col lg={{ span: 9 }} className="pe-lg-45">
             <div className="banner">
-                <Image
+                <img
                     className="img-full"
                     src={imagePath}
                     alt={service?.title}

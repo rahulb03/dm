@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import { Col, Container, Row } from 'react-bootstrap';
 import Link from 'next/link';
@@ -47,7 +48,7 @@ function TeamTwo({ teamItemsTwo, settings }) {
                                 <Slide key={teamItemTwo.id}>
                                     <div className={classes.item}>
                                         <div className={classes.img}>
-                                            <Image
+                                            <img
                                                 src={teamItemTwo?.image}
                                                 alt={teamItemTwo?.alt}
                                                 className="img-full"

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
@@ -65,7 +66,7 @@ function Team({ teamItems, teamSectionItems, settings }) {
                                 <Slide key={teamItem.id}>
                                     <div className={classes.item}>
                                         <div className={classes.img}>
-                                            <Image
+                                            <img
                                                 src={teamItem?.image}
                                                 alt={teamItem?.alt}
                                                 className="img-full"

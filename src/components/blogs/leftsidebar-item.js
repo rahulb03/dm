@@ -1,8 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import { Col } from 'react-bootstrap';
 import classes from './blog.module.scss';
-import Image from 'next/image';
+// import Image from 'react-bootstrap';
 function BlogLeftSidebarItem({ blog }) {
     const imagePath = `/images/blogs/${blog?.slug}/${blog?.mediumImage}`;
     const linkPath = `/blogs/${blog?.slug}`;
@@ -11,7 +12,7 @@ function BlogLeftSidebarItem({ blog }) {
         <Col md={{ span: 6 }}>
             <div className={classes.blog_item}>
                 <Link href={linkPath} className={classes.blog_img}>
-                    <Image
+                    <img
                         className="img-full"
                         src={imagePath}
                         alt={blog?.title}

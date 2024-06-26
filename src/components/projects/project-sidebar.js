@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import { Col } from 'react-bootstrap';
 import Link from 'next/link';
@@ -43,7 +44,7 @@ function ProjectSidebar({ projectsSidebar }) {
                         </ul>
                     </div>
                     <div className={`${classes.sidebar_widget__banner}`}>
-                        <Image
+                        <img
                             src={sidebarItem?.widgetBanner}
                             alt={sidebarItem?.widgetBannerAlt}
                         />

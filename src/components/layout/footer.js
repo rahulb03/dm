@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import { Col, Container, Row } from 'react-bootstrap';
 import * as FaIcons from 'react-icons/fa';
@@ -17,7 +18,7 @@ function Footer({ footerItems }) {
                                 <Col lg={{ span: 3 }}>
                                     <div className={classes.widget__item}>
                                         <Link href="/" className={classes.logo}>
-                                            <Image
+                                            <img
                                                 src={footerItem?.footerLogo}
                                                 alt={footerItem?.footerLogoAlt}
                                             />

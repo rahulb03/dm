@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -11,7 +12,7 @@ function ProjectSliderItem({ project }) {
     return (
         <div className="project-item">
             <Link href={linkPath} className="project-img">
-                <Image src={imagePath} alt={project?.title} />
+                <img src={imagePath} alt={project?.title}z />
             </Link>
             <div className="project-content">
                 <span className="sub-title">{project?.subTitle}</span>

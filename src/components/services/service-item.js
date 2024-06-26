@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import { IoAddSharp } from 'react-icons/io5';
@@ -11,7 +12,7 @@ function ServiceItem({ service }) {
     return (
         <div className="service-item">
             <Link href={linkPath} className={classes.img}>
-                <Image
+                <img
                     className="img-full"
                     src={imagePath}
                     alt={service?.title}

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
@@ -101,7 +102,7 @@ function TestimonialTwo({
                                             </p>
                                             <div className={classes.user_info}>
                                                 <div className="user_img">
-                                                    <Image
+                                                    <img
                                                         src={
                                                             testimonialItem?.avatar
                                                         }

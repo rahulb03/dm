@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import { Col } from 'react-bootstrap';
@@ -11,7 +12,7 @@ function ProjectFullwidthItem({ project }) {
         <Col lg={{ span: 4 }} md={{ span: 6 }}>
             <div className="project-item">
                 <Link href={linkPath} className="project-img">
-                    <Image src={imagePath} alt={project?.title} />
+                    <img src={imagePath} alt={project?.title} />
                 </Link>
                 <div className="project-content">
                     <span className="sub-title">{project?.subTitle}</span>

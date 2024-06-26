@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import classes from './blog.module.scss';
@@ -9,7 +10,7 @@ function LatestBlogItem({ blog }) {
     return (
         <div className={classes.blog_item}>
             <Link href={linkPath} className={classes.blog_img}>
-                <Image className="img-full" src={imagePath} alt={blog?.title} />
+                <img className="img-full" src={imagePath} alt={blog?.title} />
             </Link>
             <div className={classes.blog_content}>
                 <span className={classes.blog_meta}>{blog?.blogMeta}</span>
