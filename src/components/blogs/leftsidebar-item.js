@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import { Col } from 'react-bootstrap';
 import classes from './blog.module.scss';
-import Image from 'react-bootstrap';
+import Image from 'next/image';
 function BlogLeftSidebarItem({ blog }) {
     const imagePath = `/images/blogs/${blog?.slug}/${blog?.mediumImage}`;
     const linkPath = `/blogs/${blog?.slug}`;
