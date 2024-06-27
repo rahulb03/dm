@@ -1,6 +1,6 @@
 ---
 id: 'contact-01'
-image: '/images/contact/1-1-510x587.jpg'
+image: '/images/contact/1.png'
 imageAlt: 'Contact Image'
 pattern: '/images/contact/pattern.png'
 patternAlt: 'Contact Pattern'

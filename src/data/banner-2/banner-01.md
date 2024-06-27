@@ -1,6 +1,6 @@
 ---
 id: 'banner-02'
-image: '/images/banner/medium-size/2-1-939x666.jpg'
+image: '/images/banner/medium-size/1.png'
 alt: 'Banner Image'
 subTitle: 'EXPLORE'
 title: '<span> Full Project <br /> management</span>'

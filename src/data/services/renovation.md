@@ -1,7 +1,7 @@
 ---
 id: 'service-06'
-title: 'Renovation'
-mediumImage: 'renovation-md.jpg'
+title: 'Terrace Style '
+mediumImage: '1.jpeg'
 largeImage: 'renovation-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'

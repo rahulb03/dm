@@ -27,10 +27,10 @@ function ServicePage({
     return (
         <>
             <Head>
-                <title>Services - Oxybuild</title>
+                <title>Services - DMpatil construction </title>
                 <meta
                     name="description"
-                    content="OxyBuild - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
+                    content="DMpatil construction  - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
                 />
             </Head>
             <Breadcrumb

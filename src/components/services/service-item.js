@@ -11,22 +11,22 @@ function ServiceItem({ service }) {
 
     return (
         <div className="service-item">
-            <Link href={linkPath} className={classes.img}>
+            {/* <Link href={linkPath} className={classes.img}> */}
                 <img
                     className="img-full"
                     src={imagePath}
                     alt={service?.title}
                 />
-            </Link>
+            {/* </Link> */}
             <div className={classes.add__action}>
                 <h2 className="title mb-0">
                     <Link href={linkPath}>{service?.title}</Link>
                 </h2>
-                <div className={classes.icon}>
+                {/* <div className={classes.icon}>
                     <Link href="mailto://info@example.com" passHref>
                         <IoAddSharp />
                     </Link>
-                </div>
+                </div> */}
             </div>
         </div>
     );

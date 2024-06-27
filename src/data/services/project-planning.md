@@ -1,6 +1,6 @@
 ---
 id: 'service-05'
-title: 'Project Planning'
+title: 'Plaster Ripening'
 mediumImage: 'project-planning-md.jpg'
 largeImage: 'project-planning-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'

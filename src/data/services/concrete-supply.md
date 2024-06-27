@@ -1,6 +1,6 @@
 ---
 id: 'service-02'
-title: 'Concrete Supply'
+title: 'Tile Fitting'
 mediumImage: 'concrete-supply-md.jpg'
 largeImage: 'concrete-supply-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'

@@ -1,7 +1,9 @@
 ---
 id: 'service-01'
-title: 'Architecture'
-mediumImage: 'architecture-md.jpg'
+title: 'New Home Construction'
+# mediumImage: 'architecture-md.jpg'
+mediumImage: '2.webp'
+
 largeImage: 'architecture-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'

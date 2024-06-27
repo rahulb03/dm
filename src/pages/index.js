@@ -37,7 +37,7 @@ function HomePage({
     return (
         <>
             <Head>
-                <title>Home - Oxybuild</title>
+                <title>Home - DMpatil construction </title>
                 <meta
                     name="description"
                     content="OxyBuild - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
@@ -123,7 +123,7 @@ HomePage.propTypes = {
     aboutItems: PropTypes.instanceOf(Object).isRequired,
     projects: PropTypes.instanceOf(Object).isRequired,
     projectSectionItems: PropTypes.instanceOf(Object).isRequired,
-    brandItems: PropTypes.instanceOf(Object).isRequired,
+    // brandItems: PropTypes.instanceOf(Object).isRequired,
     services: PropTypes.instanceOf(Object).isRequired,
     serviceSectionItems: PropTypes.instanceOf(Object).isRequired,
     bannerTwoItems: PropTypes.instanceOf(Object).isRequired,

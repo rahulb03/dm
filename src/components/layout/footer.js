@@ -18,9 +18,13 @@ function Footer({ footerItems }) {
                                 <Col lg={{ span: 3 }}>
                                     <div className={classes.widget__item}>
                                         <Link href="/" className={classes.logo}>
-                                            <img
-                                                src={footerItem?.footerLogo}
+                                            <Image
+                                            
+                                            width={250}
+                                            height={80}
+                                                src = '/images/logo/DMPC_new2.png'
                                                 alt={footerItem?.footerLogoAlt}
+ 
                                             />
                                         </Link>
                                         <p

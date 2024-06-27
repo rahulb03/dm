@@ -67,13 +67,13 @@ function Header() {
                             >
                                 <div className={classes.info}>
                                     <div className={classes.contact_number}>
-                                        <img
+                                        {/* <img
                                             src="/images/header/icon/phone.png"
                                             alt="Phone"
                                         />
                                         <Link href="tel://01225-265-847">
                                             01225 265 847
-                                        </Link>
+                                        </Link> */}
                                     </div>
                                     <div className={classes.time_schedule}>
                                         <img
@@ -81,14 +81,19 @@ function Header() {
                                             alt="Phone"
                                         />
                                         <span>9.00 am - 11.00 pm</span>
+                                        
                                     </div>
+
+                                   
+
+                                    
                                 </div>
                             </Col>
                             <Col sm={{ span: 6 }} className="d-block d-lg-none">
                                 <div className="header-logo">
                                     <Link href="/" className={classes.logo}>
                                         <img
-                                            src="/images/logo/light.png"
+                                            src="/images/logo/DM_patil_whitelogo.png"
                                             alt="Header Lisght Logo"
                                         />
                                     </Link>
@@ -281,11 +286,13 @@ function Header() {
                             </Col>
                         </Row>
                     </Container>
-                    <div className={`${classes.fixed__logo} d-none d-lg-flex`}>
+                    <div className={`${classes.fixed__logo} d-none d-lg-flex `}>
                         <Link href="/" className={classes.logo}>
-                            <img
-                                src="/images/logo/dark.png"
+                            <Image 
+                                src="/images/logo/DM_new.png"
                                 alt="Header Dark Logo"
+                                height={90}
+                                width={250}
                             />
                         </Link>
                     </div>

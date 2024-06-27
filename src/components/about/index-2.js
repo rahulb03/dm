@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Col, Container, Row } from 'react-bootstrap';
 import * as FaIcons from 'react-icons/fa';
 import classes from './about-2.module.scss';
+import Image from 'next/image';
 function AboutTwo({ aboutItemsTwo }) {
     return (
         <div className={classes.area}>
@@ -21,8 +22,9 @@ function AboutTwo({ aboutItemsTwo }) {
                                     />
                                 </div>
                                 <div className={classes.img}>
-                                    <img  
-                                      
+                                    <Image
+                                        height={444}
+                                        width={296}
                                         className="img-full"
                                         src={aboutItemTwo?.aboutImage}
                                         alt={aboutItemTwo?.aboutImageAlt}
@@ -31,9 +33,10 @@ function AboutTwo({ aboutItemsTwo }) {
                                 </div>
                                 <div className={classes.group__img}>
                                     <div className={classes.single_img}>
-                                        <img  
+                                        <Image  
                                        
-                                      
+                                         width={201}
+                                         height={208}
                                             className="img-full"
                                             src={aboutItemTwo?.singleImageOne}
                                             alt={
@@ -42,8 +45,10 @@ function AboutTwo({ aboutItemsTwo }) {
                                         />
                                     </div>
                                     <div className={classes.single_img}>
-                                        <img
-                                        
+                                        <Image
+                                          
+                                          width={201}
+                                          height={208}
                                             className="img-full"
                                             src={aboutItemTwo?.singleImageTwo}
                                             alt={
