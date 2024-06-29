@@ -63,19 +63,17 @@ function Header() {
                              <div className="header-logo">
                                  <Link href="/" className={classes.logo}>
                                      <Image
-                                     style={{backgroundColor:'white'}}
-                                         src="/images/logo/DM_new.webp"
+                                     style={{backgroundColor:'white' ,marginLeft:'33px' ,  marginTop:'10px'}}
+                                         src="/images/logo/untitled-3.webp"
                                          alt="Header Lisght Logo"
                                          height={124}
-                                         width={400}
+                                         width={300}
                                          priority
                                      />
                                  </Link>
                              </div>
 
-                         </Col>
-
-                         <Col xl={6} lg={4} sm={6}>
+                             <Col xl={6} lg={4} sm={6}>
                                 <div className={classes.right}>
                                     <div>
                                         {/* <Link href="/login-register">
@@ -111,7 +109,7 @@ function Header() {
                                             </button>
                                         </form>
                                     </div> */}
-                                    <div className={   classes.offcanvas}>
+                                    <div className={classes.offcanvas} style={{marginBottom:'10px'}}>
                                         <buton
                                             className={`${classes.offcanvas__btn} d-block d-lg-none menu-bar-button`}
                                             onClick={showOffcanvas}
@@ -121,6 +119,12 @@ function Header() {
                                     </div>
                                 </div>
                             </Col>
+
+
+
+                         </Col>
+
+                       
 
                 <div className={classes.top}>
 
@@ -315,10 +319,10 @@ function Header() {
                     <div className={`${classes.fixed__logo} d-none d-lg-flex `}>
                         <Link href="/" className={classes.logo}>
                             <Image style={{marginLeft:'25px '}}
-                                src="/images/logo/DM_new.webp"
+                                src="/images/logo/untitled-3.webp"
                                 alt="Header Dark Logo"
-                                height={90}
-                                width={250}
+                                height={100}
+                                width={260}
                             />
                         </Link>
                     </div>
