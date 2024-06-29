@@ -64,7 +64,7 @@ function Header() {
                                  <Link href="/" className={classes.logo}>
                                      <Image
                                      style={{backgroundColor:'white' ,marginLeft:'33px' ,  marginTop:'10px'}}
-                                         src="/images/logo/untitled-3.webp"
+                                         src="/images/logo/Untitled-3.webp"
                                          alt="Header Lisght Logo"
                                          height={124}
                                          width={300}
@@ -319,7 +319,7 @@ function Header() {
                     <div className={`${classes.fixed__logo} d-none d-lg-flex `}>
                         <Link href="/" className={classes.logo}>
                             <Image style={{marginLeft:'25px '}}
-                                src="/images/logo/untitled-3.webp"
+                                src="/images/logo/Untitled-3.webp"
                                 alt="Header Dark Logo"
                                 height={100}
                                 width={260}
