@@ -136,10 +136,24 @@
     &__btn {
         display: flex;
         align-items: center;
+        
         cursor: pointer;
         height: 100%;
-        color: $white;
+        color: #00225a;
+        font-weight: 200px;
     }
+
+     &.offcanvas-menu{
+        background-color: #00225a !important;
+
+
+     }
+    
+}
+
+.offcanvas-menu
+{
+    background-color: #00225a !important;
 }
 /* -Header Logo- */
 .logo {
@@ -180,6 +194,9 @@
         }
     }
 }
+
+
+
 
 /* --Dropdown Menu-- */
 .dropdown {

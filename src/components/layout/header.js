@@ -55,9 +55,75 @@ function Header() {
     // End here
 
     return (
-        <>
+        <> 
             <header className={classes.area}>
+
+            <Col sm={{ span: 6 }} className="d-block d-lg-none">
+                             
+                             <div className="header-logo">
+                                 <Link href="/" className={classes.logo}>
+                                     <Image
+                                     style={{backgroundColor:'white'}}
+                                         src="/images/logo/DM_new.webp"
+                                         alt="Header Lisght Logo"
+                                         height={124}
+                                         width={400}
+                                         priority
+                                     />
+                                 </Link>
+                             </div>
+
+                         </Col>
+
+                         <Col xl={6} lg={4} sm={6}>
+                                <div className={classes.right}>
+                                    <div>
+                                        {/* <Link href="/login-register">
+                                            Login
+                                            <span>/ Register</span>
+                                        </Link> */}
+                                    </div>
+                                    {/* <div
+                                        className={`${
+                                            search
+                                                ? 'search-show'
+                                                : 'search-hide'
+                                        } d-block d-lg-none search-holder`}
+                                    >
+                                        <buton
+                                            className={classes.search__btn}
+                                            onClick={SearchToggle}
+                                        >
+                                            <FaSearch />
+                                        </buton>
+                                        <form className="search-form">
+                                            <input
+                                                className="search-input"
+                                                type="search"
+                                                name="search"
+                                                placeholder="Search"
+                                            />
+                                            <button
+                                                className="search-inner__btn"
+                                                type="submit"
+                                            >
+                                                <FaSearch />
+                                            </button>
+                                        </form>
+                                    </div> */}
+                                    <div className={   classes.offcanvas}>
+                                        <buton
+                                            className={`${classes.offcanvas__btn} d-block d-lg-none menu-bar-button`}
+                                            onClick={showOffcanvas}
+                                        >
+                                            <FaBars />
+                                        </buton>
+                                    </div>
+                                </div>
+                            </Col>
+
                 <div className={classes.top}>
+
                     <Container>
                         <Row>
                             <Col
@@ -89,63 +155,22 @@ function Header() {
                                     
                                 </div> */}
                             </Col>
-                           
-                            <Col sm={{ span: 6 }} className="d-block d-lg-none">
+                        
+                            {/* <Col sm={{ span: 6 }} className="d-block d-lg-none">
+                             
                                 <div className="header-logo">
                                     <Link href="/" className={classes.logo}>
                                         <img
-                                            src="/images/logo/DM_patil_whitelogo.png"
+                                        style={{backgroundColor:'white'}}
+                                            src="/images/logo/DM_new.webp"
                                             alt="Header Lisght Logo"
                                         />
                                     </Link>
                                 </div>
-                            </Col>
-                            <Col xl={6} lg={4} sm={6}>
-                                <div className={classes.right}>
-                                    <div>
-                                        {/* <Link href="/login-register">
-                                            Login
-                                            <span>/ Register</span>
-                                        </Link> */}
-                                    </div>
-                                    <div
-                                        className={`${
-                                            search
-                                                ? 'search-show'
-                                                : 'search-hide'
-                                        } d-block d-lg-none search-holder`}
-                                    >
-                                        <buton
-                                            className={classes.search__btn}
-                                            onClick={SearchToggle}
-                                        >
-                                            <FaSearch />
-                                        </buton>
-                                        <form className="search-form">
-                                            <input
-                                                className="search-input"
-                                                type="search"
-                                                name="search"
-                                                placeholder="Search"
-                                            />
-                                            <button
-                                                className="search-inner__btn"
-                                                type="submit"
-                                            >
-                                                <FaSearch />
-                                            </button>
-                                        </form>
-                                    </div>
-                                    <div className={classes.offcanvas}>
-                                        <buton
-                                            className={`${classes.offcanvas__btn} d-block d-lg-none menu-bar-button`}
-                                            onClick={showOffcanvas}
-                                        >
-                                            <FaBars />
-                                        </buton>
-                                    </div>
-                                </div>
-                            </Col>
+
+                            </Col> */}
+
+                            
                         </Row>
                     </Container>
                 </div>
@@ -290,7 +315,7 @@ function Header() {
                     <div className={`${classes.fixed__logo} d-none d-lg-flex `}>
                         <Link href="/" className={classes.logo}>
                             <Image style={{marginLeft:'25px '}}
-                                src="/images/logo/DM_new.png"
+                                src="/images/logo/DM_new.webp"
                                 alt="Header Dark Logo"
                                 height={90}
                                 width={250}
@@ -299,19 +324,24 @@ function Header() {
                     </div>
                 </div>
             </header>
+           
             <div className="offcanvas-menu-holder" onClick={showOffcanvas}>
-                <div
+                <div 
                     className={
                         offcanvas
                             ? 'offcanvas-menu-wrap active'
                             : 'offcanvas-menu-wrap'
                     }
-                >
+                 
+               
+               >
                     <nav
                         className="offcanvas-menu"
                         onClick={(e) => e.stopPropagation()}
+                        style={{backgroundColor: '#00225a'}}
+
                     >
-                        <ul className="offcanvas-menu-items">
+                        <ul className="offcanvas-menu-items" >
                             <li className="offcanvas-top">
                                 <button
                                     type="button"
