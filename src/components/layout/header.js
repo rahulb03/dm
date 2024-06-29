@@ -65,15 +65,15 @@ function Header() {
                                 lg={{ span: 5, offset: 3 }}
                                 className="d-none d-lg-block"
                             >
-                                <div className={classes.info}>
+                                {/* <div className={classes.info}>
                                     <div className={classes.contact_number}>
-                                        {/* <img
+                                        <img
                                             src="/images/header/icon/phone.png"
                                             alt="Phone"
                                         />
                                         <Link href="tel://01225-265-847">
                                             01225 265 847
-                                        </Link> */}
+                                        </Link>
                                     </div>
                                     <div className={classes.time_schedule}>
                                         <img
@@ -87,8 +87,9 @@ function Header() {
                                    
 
                                     
-                                </div>
+                                </div> */}
                             </Col>
+                           
                             <Col sm={{ span: 6 }} className="d-block d-lg-none">
                                 <div className="header-logo">
                                     <Link href="/" className={classes.logo}>
@@ -288,7 +289,7 @@ function Header() {
                     </Container>
                     <div className={`${classes.fixed__logo} d-none d-lg-flex `}>
                         <Link href="/" className={classes.logo}>
-                            <Image 
+                            <Image style={{marginLeft:'25px '}}
                                 src="/images/logo/DM_new.png"
                                 alt="Header Dark Logo"
                                 height={90}

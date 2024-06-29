@@ -6,6 +6,7 @@ import Footer from '../../components/layout/footer';
 import Newsletter from '../../components/newsletter/newsletter';
 import ProjectFullwidth from '../../components/projects/fullwidth';
 import { getAllItems } from '../../lib/items-util';
+import ProjectFullwidthItem from '../../components/projects/fullwidth-item';
 
 function ProjectFullwidthPage({
     projects,
@@ -24,7 +25,10 @@ function ProjectFullwidthPage({
                 title="FullWidth"
                 desc="Construction of itself, because it is pain some proper style design occur are pleasure"
             />
-            <ProjectFullwidth projects={projects} />
+            {/* <ProjectFullwidth projects={projects} /> */}
+
+            <ProjectFullwidthItem />
+            {/* <ProjectFullwidth /> */}
             <BannerFive bannerTwoItems={bannerTwoItems} />
             {/* <Newsletter newsletterItems={newsletterItems} /> */}
             <Footer footerItems={footerItems} />

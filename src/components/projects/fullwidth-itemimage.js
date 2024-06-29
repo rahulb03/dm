@@ -15,7 +15,25 @@ const fullwidth = [
 
 '/images/project-overview/pink-garden.jpg' ,
 
-'/images/project-overview/railway-tunnel.jpg' , 
+
+'/images/project-overview/112.jpg',
+
+'/images/project-overview/113.jpg',
+
+'/images/project-overview/114.jpg',
+
+'/images/project-overview/115.jpg',
+
+'/images/project-overview/116.jpg',
+
+'/images/project-overview/117.jpg',
+
+// './images/project-overview/.jpg',
+
+
+
+
+
 ]
 
 

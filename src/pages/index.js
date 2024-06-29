@@ -46,10 +46,10 @@ function HomePage({
             <Hero heroItems={heroItems} />
             <BannerOne bannerItems={bannerItems} />
             <AboutOne aboutItems={aboutItems} />
-            <LatestProject
+            {/* <LatestProject
                 projects={projects}
                 projectSectionItems={projectSectionItems}
-            />
+            /> */}
             {/* <BrandOne brandItems={brandItems} /> */}
             <HomePageServices
                 services={services}

@@ -12,11 +12,13 @@ function BannerTwo({ bannerTwoItems }) {
                     <Row className="g-0" key={bannerTwoItem.id}>
                         <Col lg={{ span: 6 }}>
                             <div className={classes.image}>
-                                <img
+                                <Image
                                    
                                     src={bannerTwoItem?.image}
                                     alt={bannerTwoItem?.alt}
-                                    className="img-full"
+                                    // className="img-full"
+                                    width={844}
+                                    height={709}
                                 />
                             </div>
                         </Col>
@@ -50,6 +52,8 @@ function BannerTwo({ bannerTwoItems }) {
                                         src={bannerTwoItem?.stickerImage}
                                         alt={bannerTwoItem?.stickerAlt}
                                         className="img-full"
+                                        // width={844}
+                                        // height={709}
                                     />
                                 </div>
                             </div>

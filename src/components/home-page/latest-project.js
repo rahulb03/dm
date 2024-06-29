@@ -61,12 +61,12 @@ function LatestProject({ projects, projectSectionItems, settings }) {
                                     <div
                                         className={`${classes.button_next} project-button-next`}
                                     >
-                                        <FaChevronLeft />
+                                        {/* <FaChevronLeft /> */}
                                     </div>
                                     <div
                                         className={`${classes.button_prev} project-button-prev`}
                                     >
-                                        <FaChevronRight />
+                                        {/* <FaChevronRight /> */}
                                     </div>
                                 </div>
                             </div>
