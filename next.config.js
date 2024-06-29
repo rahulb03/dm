@@ -2,8 +2,11 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-    reactStrictMode: true,
-    optimizeFonts: true,
+ 
+
+     output:'export' ,
+    // reactStrictMode: true,
+    // optimizeFonts: true,
 };
 
-module.exports = nextConfig;
+// module.exports = nextConfig;
